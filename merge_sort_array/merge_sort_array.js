@@ -4,7 +4,7 @@ Question: How would you merge two sorted array?
 Answer: I will keep a pointer for each array */
 
 function mergeSortArray(a , b){
-var merged = [], aElm = a[0], bElm=b[0], i=1, b=1;
+var merged = [], aElm = a[0], bElm=b[0], i=1, j=1;
 
 if(a.length ===0){
 return b;
